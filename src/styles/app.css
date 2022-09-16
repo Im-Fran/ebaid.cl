@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'KingthingsPetrock';
+    src: local('Kingthings Petrock Light'), local('KingthingsPetrockLight-Regular'),
+    url('/fonts/KingthingsPetrock.ttf') format('truetype'),
+    url('/fonts/KingthingsPetrock.ttf') format('truetype');
+}
