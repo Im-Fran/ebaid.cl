@@ -217,7 +217,7 @@ export default function Index({ }) {
                 <div className="relative justify-center items-center mt-5">
                     <div className="grid grid-cols-7 w-full h-52">
                         <div className="absolute grid grid-cols-10 w-full mt-6">
-                            <img src="https://images.unsplash.com/photo-1611095790444-1dfa35e37b52" alt="Analizando" className="z-10 col-span-2 col-start-2 h-42 w-full flex items-center justify-center rounded-lg border border-brand-100"/>
+                            <img src="https://images.unsplash.com/photo-1611095790444-1dfa35e37b52?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80" alt="Analizando" className="z-10 col-span-2 col-start-2 h-42 w-full flex items-center justify-center rounded-lg border border-brand-100"/>
                         </div>
                         <div className="grid grid-cols-7 col-span-5 col-start-2 bg-brand-100 rounded-lg items-center justify-center flex flex-col w-full h-64">
                             <div className="col-span-4 col-start-3 w-full">
@@ -229,7 +229,16 @@ export default function Index({ }) {
                 </div>
             </div>
 
-            <div className="py-[15rem]"/>
+            <div className="py-[5rem]"/>
+
+            {/* Innovar */}
+            <div className="flex flex-col w-full" id="innovar">
+                <h2 className="text-3xl lg:text-4xl tracking-tight font-bold text-blue-600 sm:text-xl md:text-2xl mt-16 md:mr-5 block xl:inline text-center">
+                    Innovar:
+                </h2>
+            </div>
+
+            <div className="py-[5rem]"/>
 
             {/* Desarrollar */}
             <div className="flex flex-col w-full" id="desarrollar">
@@ -237,6 +246,8 @@ export default function Index({ }) {
                     Desarrollar:
                 </h2>
             </div>
+
+            <div className="py-[15rem]"/>
         </AppLayout>
     )
 }
